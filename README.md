@@ -1,6 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Denisepifanov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Denisepifanov/frontend-project-44/actions)
-
 
 https://asciinema.org/a/C6RnMCabcehPpxJgZHG3iJVup
 https://asciinema.org/a/TXKKr7DV08QRKosLaVTTEiRD8
