@@ -1,5 +1,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6b8690f374b09e395eec/maintainability)](https://codeclimate.com/github/Denisepifanov/frontend-project-44/maintainability)
 
+![example workflow](https://github.com/Denisepifanov/frontend-project-44/workflows/hexlet-check/badge.svg)
+
 
 # brain-games
 hexlet-project frontend №1
