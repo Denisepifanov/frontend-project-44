@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import startGame from '../src/games/twoGames.js';
+import makeWelcome from '../src/games/twoGames.js';
 
-startGame();
+makeWelcome();

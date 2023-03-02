@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/named
-import startGame from './index.js';
+import makeWelcome from '../index.js';
 import { numRandom } from './numRandom.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no"';
@@ -12,5 +12,5 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
 }
 
 export default () => {
-  startGame(arrGame, gameDescription);
+  makeWelcome(arrGame, gameDescription);
 };

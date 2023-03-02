@@ -1,4 +1,4 @@
-import startGame from './index.js';
+import makeWelcome from '../index.js';
 import { numRandom } from './numRandom.js';
 
 const GAMES_COUNT = 3;
@@ -19,5 +19,5 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
 }
 
 export default () => {
-  startGame(arrGame, gameDescription);
+  makeWelcome(arrGame, gameDescription);
 };

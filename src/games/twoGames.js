@@ -1,4 +1,4 @@
-import startGame from './index.js';
+import makeWelcome from '../index.js';
 import { numRandom } from './numRandom.js';
 
 const gameDescription = 'What is the result of the expression?';
@@ -29,5 +29,5 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
 }
 
 export default () => {
-  startGame(arrGame, gameDescription);
+  makeWelcome(arrGame, gameDescription);
 };

@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Denisepifanov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Denisepifanov/frontend-project-44/actions)",
+  "description": "educational project from the hexlet platform in 1-2 modules (JS basics)",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -10,8 +10,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "main": "index.js",
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -37,3 +36,4 @@
     "prettier": "^2.8.4"
   }
 }
+
