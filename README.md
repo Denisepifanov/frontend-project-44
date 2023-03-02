@@ -23,8 +23,12 @@ Running games:when installing Node js and npm packages (dependencies), games are
 ##### game demonstration
 
 - brain-even: [![asciicast](https://asciinema.org/a/C6RnMCabcehPpxJgZHG3iJVup.svg)](https://asciinema.org/a/C6RnMCabcehPpxJgZHG3iJVup)
+
 - brain-calc: ![asciicast](https://asciinema.org/a/TXKKr7DV08QRKosLaVTTEiRD8.svg)](https://asciinema.org/a/TXKKr7DV08QRKosLaVTTEiRD8)
+
 - brain-gcd: [![asciicast](https://asciinema.org/a/Pu91KsjbydMNMKVHhEvRRq99A.svg)](https://asciinema.org/a/Pu91KsjbydMNMKVHhEvRRq99A)
+
 - brain-prime: [![asciicast](https://asciinema.org/a/9NgAbur0UeQdmhTxfEvbGSWGn.svg)](https://asciinema.org/a/9NgAbur0UeQdmhTxfEvbGSWGn)
+
 - brain progression:[![asciicast](https://asciinema.org/a/hYWV0F6RvF4kDHIZ7XD0DKaFn.svg)](https://asciinema.org/a/hYWV0F6RvF4kDHIZ7XD0DKaFn)
 
