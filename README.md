@@ -13,7 +13,9 @@ Game names:1.brain-even<br/>
 - installing node.js`brew install node`
 2 installing npm package `npm ci`   
 ---
-##### technologies used:
+#####
+Running games:when installing Node js and npm packages (dependencies), games are launched by name
+#### technologies used:
 - Node.js® is an open-source, cross-platform JavaScript runtime environment.<br/>
 - node package manager
 - JavaScript

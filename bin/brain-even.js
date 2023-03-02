@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import makeWelcome from '../src/games/oneGames.js';
+import makeWelcome from '../src/games/isEven.js';
 
 makeWelcome();

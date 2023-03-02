@@ -3,7 +3,7 @@ import { numRandom } from './numRandom.js';
 
 const GAMES_COUNT = 3;
 const gameDescription = 'What number is missing in the progression?';
-const arrGame = [];
+const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
   const startNumber = numRandom(1, 100);
   const interval = numRandom(3, 8);
@@ -15,9 +15,9 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
   const missingNumber = progression[missingPosition];
   const forGameProgression = progression;
   forGameProgression[missingPosition] = '..';
-  arrGame.push({ question: String(forGameProgression.join(' ')), answer: String(missingNumber) });
+  gameData.push({ question: String(forGameProgression.join(' ')), answer: String(missingNumber) });
 }
 
 export default () => {
-  makeWelcome(arrGame, gameDescription);
+  makeWelcome(gameData, gameDescription);
 };

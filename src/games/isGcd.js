@@ -3,7 +3,7 @@ import { numRandom } from './numRandom.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 const GAMES_COUNT = 3;
-const arrGame = [];
+const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
   let firstNumber = numRandom(30, 100);
   let secondNumber = numRandom(15, 100);
@@ -15,9 +15,9 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
       secondNumber -= firstNumber;
     }
   }
-  arrGame.push({ question: questionGreatestDivisor, answer: String(firstNumber) });
+  gameData.push({ question: questionGreatestDivisor, answer: String(firstNumber) });
 }
 
 export default () => {
-  makeWelcome(arrGame, gameDescription);
+  makeWelcome(gameData, gameDescription);
 };

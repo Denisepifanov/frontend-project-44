@@ -3,7 +3,7 @@ import { numRandom } from './numRandom.js';
 
 const gameDescription = 'What is the result of the expression?';
 const GAMES_COUNT = 3;
-const arrGame = [];
+const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
   const firstNumber = numRandom(3, 30);
   const secondNumber = numRandom(2, 20);
@@ -25,9 +25,9 @@ for (let i = 0; i < GAMES_COUNT; i += 1) {
     default:
       resultCalc = null;
   }
-  arrGame.push({ question: questionCalc, answer: String(resultCalc) });
+  gameData.push({ question: questionCalc, answer: String(resultCalc) });
 }
 
 export default () => {
-  makeWelcome(arrGame, gameDescription);
+  makeWelcome(gameData, gameDescription);
 };

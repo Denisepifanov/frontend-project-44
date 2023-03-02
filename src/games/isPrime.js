@@ -11,12 +11,12 @@ const isPrime = (checkingNumber) => {
   }
   return 'yes';
 };
-const arrGame = [];
+const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
   const checkingNumber = numRandom(2, 100);
-  arrGame.push({ question: checkingNumber, answer: isPrime(checkingNumber) });
+  gameData.push({ question: checkingNumber, answer: isPrime(checkingNumber) });
 }
 
 export default () => {
-  makeWelcome(arrGame, gameDescription);
+  makeWelcome(gameData, gameDescription);
 };
