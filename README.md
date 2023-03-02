@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/6b8690f374b09e395eec/maintainability)](https://codeclimate.com/github/Denisepifanov/frontend-project-44/maintainability)
+
+
 # brain-games
 hexlet-project frontend №1
 ### This project presents 5 games based on numerical calculations.
