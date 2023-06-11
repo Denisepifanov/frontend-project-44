@@ -1,5 +1,5 @@
 import makeWelcome from '../index.js';
-import { numRandom } from './numRandom.js';
+import { numRandom } from '../utils.js';
 
 const gameDescription = 'What is the result of the expression?';
 const GAMES_COUNT = 3;

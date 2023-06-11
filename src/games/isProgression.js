@@ -1,5 +1,5 @@
 import makeWelcome from '../index.js';
-import { numRandom } from './numRandom.js';
+import { numRandom } from '../utils.js';
 
 const GAMES_COUNT = 3;
 const gameDescription = 'What number is missing in the progression?';

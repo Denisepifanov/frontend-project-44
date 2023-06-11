@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/named
 import makeWelcome from '../index.js';
-import { numRandom } from './numRandom.js';
+import { numRandom } from '../utils.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no"';
 const isEven = (randomNumber) => (randomNumber % 2 === 0 ? 'yes' : 'no');
