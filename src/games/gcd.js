@@ -2,9 +2,9 @@ import makeWelcome from '../index.js';
 import { getRandomInRange } from '../utils.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
-const GAMES_COUNT = 3;
 const gameData = [];
-for (let i = 0; i < GAMES_COUNT; i += 1) {
+const ROUNDS_COUNT = 3;
+for (let i = 0; i < ROUNDS_COUNT; i += 1) {
   let firstNumber = getRandomInRange(30, 100);
   let secondNumber = getRandomInRange(15, 100);
   const questionGreatestDivisor = `${firstNumber} ${secondNumber}`;

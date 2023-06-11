@@ -1,10 +1,10 @@
 import makeWelcome from '../index.js';
 import { getRandomInRange } from '../utils.js';
 
-const GAMES_COUNT = 3;
+const ROUNDS_COUNT = 3;
 const gameDescription = 'What number is missing in the progression?';
 const gameData = [];
-for (let i = 0; i < GAMES_COUNT; i += 1) {
+for (let i = 0; i < ROUNDS_COUNT; i += 1) {
   const startNumber = getRandomInRange(1, 100);
   const interval = getRandomInRange(3, 8);
   const progression = [];
