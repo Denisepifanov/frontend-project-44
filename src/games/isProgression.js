@@ -1,17 +1,17 @@
 import makeWelcome from '../index.js';
-import { numRandom } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 
 const GAMES_COUNT = 3;
 const gameDescription = 'What number is missing in the progression?';
 const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
-  const startNumber = numRandom(1, 100);
-  const interval = numRandom(3, 8);
+  const startNumber = getRandomInRange(1, 100);
+  const interval = getRandomInRange(3, 8);
   const progression = [];
   for (let j = 0; progression.length < 9; j += interval) {
     progression.push(startNumber + j);
   }
-  const missingPosition = numRandom(1, 8);
+  const missingPosition = getRandomInRange(1, 8);
   const missingNumber = progression[missingPosition];
   const forGameProgression = progression;
   forGameProgression[missingPosition] = '..';

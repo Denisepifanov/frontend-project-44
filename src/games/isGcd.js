@@ -1,12 +1,12 @@
 import makeWelcome from '../index.js';
-import { numRandom } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 const GAMES_COUNT = 3;
 const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
-  let firstNumber = numRandom(30, 100);
-  let secondNumber = numRandom(15, 100);
+  let firstNumber = getRandomInRange(30, 100);
+  let secondNumber = getRandomInRange(15, 100);
   const questionGreatestDivisor = `${firstNumber} ${secondNumber}`;
   while (firstNumber !== secondNumber) {
     if (firstNumber > secondNumber) {

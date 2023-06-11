@@ -1,5 +1,5 @@
 import makeWelcome from '../index.js';
-import { numRandom } from '../utils.js';
+import { getRandomInRange } from '../utils.js';
 
 const GAMES_COUNT = 3;
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -13,7 +13,7 @@ const isPrime = (checkingNumber) => {
 };
 const gameData = [];
 for (let i = 0; i < GAMES_COUNT; i += 1) {
-  const checkingNumber = numRandom(2, 100);
+  const checkingNumber = getRandomInRange(2, 100);
   gameData.push({ question: checkingNumber, answer: isPrime(checkingNumber) });
 }
 
